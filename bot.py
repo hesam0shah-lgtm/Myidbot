@@ -1,8 +1,4 @@
-import asyncio
-import logging
-import sys
-import uuid
-import aiohttp
+
 from aiogram import Bot, Dispatcher, types, F
 from aiogram.enums import ParseMode
 from aiogram.filters import CommandStart, Command
@@ -83,4 +79,5 @@ if __name__ == "__main__":
     asyncio.run(main())
     
     # Developer @mrkral
+
     # channel @irkral
